@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- General -->
+    <string name="app_name">Цифровой счётчик</string>
+    <string name="error">ошибка</string>
+    <string name="minus">—\nОШИБКА</string>
+
+    <!-- Counter -->
+    <string name="start">СТАРТ</string>
+    <string name="stop">СТОП</string>
+
+    <!-- Menu -->
+    <string name="drawer_open">Открыть навигацию</string>
+    <string name="drawer_close">Закрыть навигацию</string>
+    <string name="menu_add">Добавить счётчик</string>
+    <string name="menu_reset">Сброс</string>
+    <string name="menu_edit">Редактировать cчётчик</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_sound">Изменение устройства вывода</string>
+    <string name="menu_donate">Поддержать проект</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_add_title">Добавить новый счётчик</string>
+    <string name="dialog_edit_title">Изменить счётчик</string>
+    <string name="dialog_delete_title">Вы действительно хотите удалить этот счётчик?</string>
+    <string name="dialog_reset_title">Вы действительно хотите сбросить счётчик и таймер?</string>
+    <string name="dialog_edit_name">Название:</string>
+    <string name="dialog_edit_value">Значение счётчика:</string>
+    <string name="toast_unable_to_parse_time">Значение секундомера неверное</string>
+    <string name="dialog_edit_time">Значение секундомера в формате \"00,00,00\"</string>
+    <string name="dialog_button_add">Добавить</string>
+    <string name="dialog_button_apply">Применить</string>
+    <string name="dialog_button_reset">Сброс</string>
+    <string name="dialog_button_delete">Удалить</string>
+    <string name="dialog_button_cancel">Отмена</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_display">Дисплей</string>
+    <string name="settings_theme">Стиль</string>
+    <string name="settings_theme_light">Светлый</string>
+    <string name="settings_theme_dark">Темный</string>
+    <string name="settings_theme_auto_battery">Задано энергосбережением</string>
+    <string name="settings_theme_system">Использовать системные настройки</string>
+    <string name="settings_keep_on_title">Держать экран включенным</string>
+    <string name="settings_keep_on_summary">Не выключать экран пока приложение активно</string>
+    <string name="settings_controls">Управление</string>
+    <string name="settings_sounds_title">Включить звуки</string>
+    <string name="settings_sounds_summary">Воспроизводить звуки при изменении значений счётчика</string>
+    <string name="settings_to_speech_title">Голосовая озвучка</string>
+    <string name="settings_to_speech_summary">Озвучивать текущее значение счётчика\n\nВыбран: %s</string>
+    <string name="settings_speech_error_summary">Озвучивать данное слово при уменьшении значения счётчика</string>
+    <string name="settings_speech_error_title">Фраза \"Ошибка\"</string>
+    <string name="settings_auto_stopwatch_summary">Запуск секундомера при приращивании счётчика</string>
+    <string name="settings_auto_stopwatch_title">Автостарт секундомера</string>
+    <string name="settings_wifi_relay_summary">Передача сигналов по Wi-Fi. Функция работает только совместно со специальным приспособлением – электронной контактной платформой. Нужно включить изделие и Wi-Fi модуль на вашем устройстве, подключиться к точке доступа «PushUpCounter» с паролем «1234567890». Подробности в инструкции.</string>
+    <string name="settings_wifi_relay_title">Wi-Fi пульт судьи</string>
+    <string name="settings_inverse_counter_summary">Противоположно изменяет значения счётчика при нажатии кнопок в приложении</string>
+    <string name="settings_inverse_counter_title">Инверсия счётчика</string>
+    <string name="settings_vibration_title">Включить вибрацию</string>
+    <string name="settings_vibration_summary">Вибрировать при изменении в значениях счётчика</string>
+    <string name="settings_hard_summary">Включить возможность изменять значение счётчика с помощью кнопок регулировки громкости</string>
+    <string name="settings_hard_title">Аппаратные кнопки</string>
+    <string name="settings_label_increment_summary">Изменение значения счётчика по нажатию на него</string>
+    <string name="settings_label_increment_title">Реагировать на нажатие</string>
+    <string name="settings_other">Прочее</string>
+    <string name="settings_proximity_sensor_title">Датчик приближения</string>
+    <string name="settings_proximity_sensor_summary">Использовать датчик приближения устройства для увеличения счётчика. Например - при отжимании</string>
+    <string name="settings_version_title">Версия приложения</string>
+    <string name="settings_wipe_title">Удалить все счётчики</string>
+    <string name="settings_export_title">Экспорт счётчиков</string>
+    <string name="settings_export_summary">Экспортировать все счётчики в формате CSV</string>
+    <string name="settings_wipe_confirmation">Вы действительно хотите удалить все счётчики?</string>
+    <string name="settings_wipe_confirmation_yes">Удалить все</string>
+    <string name="settings_flashlight">Фонарик</string>
+    <string name="settings_flashlight_summary">Использовать вспышку устройства как световой индикатор изменения счётчика</string>
+    <string name="flashlight_permission_error">Что бы использовать вспышку устройства как индикатор, предоставьте разрешение для камеры</string>
+
+    <!-- Toasts -->
+    <string name="toast_wipe_success">Все счётчики удалены.</string>
+    <string name="toast_delete_success">Счётчик \"%s\" удален.</string>
+    <string name="toast_no_name_message">Имя не может быть пустым!</string>
+    <string name="toast_unable_to_export">Что-то пошло не так во время экспорта.</string>
+    <string name="toast_unable_to_modify">Что-то пошло не так во время установки значения счётчика</string>
+    <string name="toast_unable_to_speech_on">Ваш телефон не поддерживает голосовую озвучку</string>
+
+    <!-- Other stuff -->
+    <string name="donate_message">Если вам понравилось приложение, то вы можете добровольно поддержать дальнейшее развитие данного некоммерческого проекта переводом на любую сумму в рублях. Сделать это можно следующим образом:</string>
+    <string name="donate_url_message">- по ссылке</string>
+    <string name="donate_card_message">- по номеру карты ВТБ</string>
+    <string name="donate_phone_message">- по номеру телефона</string>
+    <string name="donate_email_message">Направляйте свои пожелания и предложения по улучшению приложения на адрес электронной почты:</string>
+    <string name="default_counter_name">Счётчик</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="speech_language">Язык озвучки</string>
+    <string name="text_copied">Скопировано</string>
+    <string name="count">Количество</string>
+    <string name="time">Время</string>
+    <string name="dialog_remote_device_search">Поиск беспроводного устройства</string>
+    <string name="dialog_remote_device_search_description">Подождите пока приложение ищет устройство</string>
+    <string name="dialog_select_remote_device_title">Выберите беспроводное устройство</string>
+    <string name="dialog_connection_title">Подключение</string>
+    <string name="dialog_connection_title_description">Ожидание подключения…</string>
+    <string name="dialog_failed_connect_title">Ошибка подключения</string>
+    <string name="dialog_failed_connect_title_description">Выбранное устройство не отвечает. Убедитесь что беспроводное устройство включено</string>
+    <string name="dialog_remote_device_not_found_title">Беспроводных устройств не обнаружено</string>
+    <string name="dialog_remote_device_not_found_title_description">Убедитесь что беспроводное устройство включено</string>
+    <string name="dialog_failed_scan_wifi_title">Ошибка поиска</string>
+    <string name="dialog_failed_scan_wifi_title_description">WiFi выключен. Для поиска необходимо включить WiFi</string>
+    <string name="dialog_failed_scan_wifi_location_disabled">GPS выключен. Для поиска необходимо включить GPS. Приложение никак не использует геолокацию, функция нужна только для сканирования WiFi</string>
+    <string name="dialog_failed_scan_wifi_location_permission">Разрешения для определения местоположения не предоставлено. Предоставьте разрешение для сканирования сетей</string>
+    <string name="grant">Разрешить</string>
+    <string name="enable">Включить</string>
+    <string name="select_remote_device_preference">Выбрать пульт</string>
+    <string name="select_remote_device_preference_summary">Нажмите что бы выбрать устройство</string>
+    <string name="cancel">Отмена</string>
+    <string name="summary_remote_device_connected">Подключено к %s</string>
+    <string name="toast_remote_device_connected">Успешно подключено к беспроводному устройству</string>
+    <string name="toast_remote_device_disconnected_network_change">Беспроводное устройство отключено, сеть изменена</string>
+    <string name="toast_remote_device_disconnected_wifi_disabled">Беспроводное устройство отключено, сеть отключена</string>
+    <string name="toast_remote_device_already_connected">Беспроводное устройство уже подключено!</string>
+</resources>
