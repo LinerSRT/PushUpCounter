@@ -98,12 +98,8 @@ public class WifiDialogPreference extends Preference implements WifiModule.ScanC
 
     @Override
     protected void onClick() {
-        if (!wasConnected) {
-            showProgress(getContext().getString(R.string.dialog_remote_device_search), getContext().getString(R.string.dialog_remote_device_search_description));
-            wifiModule.scanWifi(this);
-        } else {
-            Toast.makeText(getContext(), getContext().getString(R.string.toast_remote_device_already_connected), Toast.LENGTH_SHORT).show();
-        }
+        showProgress(getContext().getString(R.string.dialog_remote_device_search), getContext().getString(R.string.dialog_remote_device_search_description));
+        wifiModule.scanWifi(this);
     }
 
     private void showProgress(String title, String message) {
